@@ -4,7 +4,7 @@
   <title><![CDATA[Alberto Villa's Octoblog]]></title>
   <link href="http://albertovilla.github.com/atom.xml" rel="self"/>
   <link href="http://albertovilla.github.com/"/>
-  <updated>2012-01-15T18:12:01+01:00</updated>
+  <updated>2012-01-15T18:18:31+01:00</updated>
   <id>http://albertovilla.github.com/</id>
   <author>
     <name><![CDATA[Alberto Villa]]></name>
@@ -18,7 +18,14 @@
     <link href="http://albertovilla.github.com/blog/2012/01/15/octopress-setup/"/>
     <updated>2012-01-15T15:51:00+01:00</updated>
     <id>http://albertovilla.github.com/blog/2012/01/15/octopress-setup</id>
-    <content type="html"><![CDATA[
+    <content type="html"><![CDATA[<p>Setting up Octopress has been quite easy and straightforward following the <a href="http://octopress.org/docs/">documentation</a>. The only slight problem I found was with regard the <a href="http://octopress.org/docs/deploying/github/">deployment to github</a>. The first step there for deploying with a Github user / organization is:</p>
+
+<pre><code>rake setup_github_pages
+</code></pre>
+
+<p>This script ask you for your Github repository url. From the documentation it could seem that they were referring to the Pages url http://albertovilla.github.com. If you use that as the URL you will find a strange error. The URL to be used here was: git@github.com:albertovilla/albertovilla.github.com.git</p>
+
+<p>Apart from that small problem everything went fine during the installation.</p>
 ]]></content>
   </entry>
   
