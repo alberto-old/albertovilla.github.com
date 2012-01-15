@@ -4,7 +4,7 @@
   <title><![CDATA[Alberto Villa's Octoblog]]></title>
   <link href="http://albertovilla.github.com/atom.xml" rel="self"/>
   <link href="http://albertovilla.github.com/"/>
-  <updated>2012-01-15T21:20:29+01:00</updated>
+  <updated>2012-01-15T21:21:31+01:00</updated>
   <id>http://albertovilla.github.com/</id>
   <author>
     <name><![CDATA[Alberto Villa]]></name>
@@ -14,10 +14,26 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Octopress setup]]></title>
+    <link href="http://albertovilla.github.com/blog/2012/01/15/octopress-setup/"/>
+    <updated>2012-01-15T15:51:00+01:00</updated>
+    <id>http://albertovilla.github.com/blog/2012/01/15/octopress-setup</id>
+    <content type="html"><![CDATA[<p>Setting up Octopress has been quite easy and straightforward following the <a href="http://octopress.org/docs/">documentation</a>. The only slight problem I found was with regard the <a href="http://octopress.org/docs/deploying/github/">deployment to github</a>. The first step there for deploying with a Github user / organization is:</p>
+
+<pre><code>rake setup_github_pages
+</code></pre>
+
+<p>This script ask you for your Github repository url. From the documentation it could seem that they were referring to the Pages url http://albertovilla.github.com. If you use that as the URL you will find a strange error (the error description will not provide you any hint on the real issue).</p>
+
+<p>Once I used the right URL git@github.com:albertovilla/albertovilla.github.com.git everything went fine.</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Pomodoro alternative template]]></title>
-    <link href="http://albertovilla.github.com/blog/2012/12/04/pomodoro-alternative-template/"/>
-    <updated>2012-12-04T21:18:00+01:00</updated>
-    <id>http://albertovilla.github.com/blog/2012/12/04/pomodoro-alternative-template</id>
+    <link href="http://albertovilla.github.com/blog/2011/12/04/pomodoro-alternative-template/"/>
+    <updated>2011-12-04T21:18:00+01:00</updated>
+    <id>http://albertovilla.github.com/blog/2011/12/04/pomodoro-alternative-template</id>
     <content type="html"><![CDATA[<p>First things first. So, what’s Pomodoro Technique? It’s a just simple method to improve the way you approach task completion by putting your focus on a single task at a time.</p>
 
 <p>The idea is not new, it’s clear that focusing on a task and removing distractions will allow you to accomplish more.</p>
@@ -53,22 +69,6 @@
 <p>In the worksheet I’ve included some elements that you may find useful such as a field to estimate the number of Pomodoros you believe you will perform today and another one to record the real number (you may be surprised with the way we overestimate our performance), a field to record the total number of internal and external interruptions, and some space to record the interruptions beside the Pomoro boxes for each task.</p>
 
 <p>Enjoy!</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Octopress setup]]></title>
-    <link href="http://albertovilla.github.com/blog/2012/01/15/octopress-setup/"/>
-    <updated>2012-01-15T15:51:00+01:00</updated>
-    <id>http://albertovilla.github.com/blog/2012/01/15/octopress-setup</id>
-    <content type="html"><![CDATA[<p>Setting up Octopress has been quite easy and straightforward following the <a href="http://octopress.org/docs/">documentation</a>. The only slight problem I found was with regard the <a href="http://octopress.org/docs/deploying/github/">deployment to github</a>. The first step there for deploying with a Github user / organization is:</p>
-
-<pre><code>rake setup_github_pages
-</code></pre>
-
-<p>This script ask you for your Github repository url. From the documentation it could seem that they were referring to the Pages url http://albertovilla.github.com. If you use that as the URL you will find a strange error (the error description will not provide you any hint on the real issue).</p>
-
-<p>Once I used the right URL git@github.com:albertovilla/albertovilla.github.com.git everything went fine.</p>
 ]]></content>
   </entry>
   

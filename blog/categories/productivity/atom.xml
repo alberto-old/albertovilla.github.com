@@ -4,7 +4,7 @@
   <title><![CDATA[Category: productivity | Alberto Villa's Octoblog]]></title>
   <link href="http://albertovilla.github.com/blog/categories/productivity/atom.xml" rel="self"/>
   <link href="http://albertovilla.github.com/"/>
-  <updated>2012-01-15T21:20:29+01:00</updated>
+  <updated>2012-01-15T21:21:31+01:00</updated>
   <id>http://albertovilla.github.com/</id>
   <author>
     <name><![CDATA[Alberto Villa]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Pomodoro alternative template]]></title>
-    <link href="http://albertovilla.github.com/blog/2012/12/04/pomodoro-alternative-template/"/>
-    <updated>2012-12-04T21:18:00+01:00</updated>
-    <id>http://albertovilla.github.com/blog/2012/12/04/pomodoro-alternative-template</id>
+    <link href="http://albertovilla.github.com/blog/2011/12/04/pomodoro-alternative-template/"/>
+    <updated>2011-12-04T21:18:00+01:00</updated>
+    <id>http://albertovilla.github.com/blog/2011/12/04/pomodoro-alternative-template</id>
     <content type="html"><![CDATA[<p>First things first. So, what’s Pomodoro Technique? It’s a just simple method to improve the way you approach task completion by putting your focus on a single task at a time.</p>
 
 <p>The idea is not new, it’s clear that focusing on a task and removing distractions will allow you to accomplish more.</p>

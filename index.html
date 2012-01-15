@@ -9,7 +9,7 @@
   <meta name="author" content="Alberto Villa">
 
   
-  <meta name="description" content="First things first. So, what’s Pomodoro Technique? It’s a just simple method to improve the way you approach task completion by putting your focus on &hellip;">
+  <meta name="description" content="Setting up Octopress has been quite easy and straightforward following the documentation. The only slight problem I found was with regard the &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -82,7 +82,7 @@
       
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2012/12/04/pomodoro-alternative-template/">Pomodoro Alternative Template</a></h1>
+      <h1 class="entry-title"><a href="/blog/2012/01/15/octopress-setup/">Octopress Setup</a></h1>
     
     
       <p class="meta">
@@ -98,7 +98,50 @@
   
 
 
-<time datetime="2012-12-04T21:18:00+01:00" pubdate data-updated="true">Dec 4<span>th</span>, 2012</time>
+<time datetime="2012-01-15T15:51:00+01:00" pubdate data-updated="true">Jan 15<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Setting up Octopress has been quite easy and straightforward following the <a href="http://octopress.org/docs/">documentation</a>. The only slight problem I found was with regard the <a href="http://octopress.org/docs/deploying/github/">deployment to github</a>. The first step there for deploying with a Github user / organization is:</p>
+
+<pre><code>rake setup_github_pages
+</code></pre>
+
+<p>This script ask you for your Github repository url. From the documentation it could seem that they were referring to the Pages url http://albertovilla.github.com. If you use that as the URL you will find a strange error (the error description will not provide you any hint on the real issue).</p>
+
+<p>Once I used the right URL git@github.com:albertovilla/albertovilla.github.com.git everything went fine.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2011/12/04/pomodoro-alternative-template/">Pomodoro Alternative Template</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-12-04T21:18:00+01:00" pubdate data-updated="true">Dec 4<span>th</span>, 2011</time>
         
       </p>
     
@@ -147,49 +190,6 @@
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2012/01/15/octopress-setup/">Octopress Setup</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-01-15T15:51:00+01:00" pubdate data-updated="true">Jan 15<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Setting up Octopress has been quite easy and straightforward following the <a href="http://octopress.org/docs/">documentation</a>. The only slight problem I found was with regard the <a href="http://octopress.org/docs/deploying/github/">deployment to github</a>. The first step there for deploying with a Github user / organization is:</p>
-
-<pre><code>rake setup_github_pages
-</code></pre>
-
-<p>This script ask you for your Github repository url. From the documentation it could seem that they were referring to the Pages url http://albertovilla.github.com. If you use that as the URL you will find a strange error (the error description will not provide you any hint on the real issue).</p>
-
-<p>Once I used the right URL git@github.com:albertovilla/albertovilla.github.com.git everything went fine.</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
     <a href="/blog/archives">Blog Archives</a>
@@ -203,11 +203,11 @@
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/blog/2012/12/04/pomodoro-alternative-template/">Pomodoro alternative template</a>
+        <a href="/blog/2012/01/15/octopress-setup/">Octopress setup</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2012/01/15/octopress-setup/">Octopress setup</a>
+        <a href="/blog/2011/12/04/pomodoro-alternative-template/">Pomodoro alternative template</a>
       </li>
     
   </ul>
